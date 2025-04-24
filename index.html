@@ -74,6 +74,8 @@
 
         <label for="district">District *</label>
         <select id="district" name="district" required>
+          
+          <option  disabled selected >---Select---</option>
           <option value="Hyderabad">Hyderabad</option>
           <option value="Nizamabad">Nizamabad</option>
         </select>
@@ -81,6 +83,7 @@
         &nbsp;&nbsp;&nbsp;
         <label for="mandal">Mandal *</label>
         <select id="mandal" name="mandal" required>
+           <option  disabled selected >---Select---</option>
           <option value="Hyderabad">Hyderabad</option>
           <option value="Secunderabad">Secunderabad</option>
         </select>
@@ -88,6 +91,7 @@
         &nbsp;&nbsp;&nbsp;
         <label for="village">Village *</label>
         <select id="village" name="village" required>
+           <option  disabled selected >---Select---</option>
           <option value="Hyderabad">Hyderabad</option>
           <option value="Nizamabad">Nizamabad</option>
         </select>
@@ -106,6 +110,7 @@
 
         <label for="city">City *</label>
         <select id="city" name="city" required>
+           <option  disabled selected >---Select---</option>
           <option value="Hyderabad">Hyderabad</option>
           <option value="Secunderabad">Secunderabad</option>
         </select>
@@ -114,7 +119,7 @@
 
         <label for="passType">Pass Type *</label>
         <select id="passType" name="passType" required>
-          <option value="">--Select--</option>
+         <option  disabled selected >---Select---</option>
           <option value="Monthly">Monthly</option>
           <option value="Quarterly">Quarterly</option>
         </select>
@@ -128,7 +133,7 @@
 
         <label for="paymentMode">Payment Mode *</label>
         <select id="paymentMode" name="paymentMode" required>
-          <option value="">--Select Payment Mode--</option>
+           <option  disabled selected >---Select---</option>
           <option value="Online">Online</option>
           <option value="Offline">Offline</option>
         </select>
@@ -136,17 +141,19 @@
         <br /><br />
 
         <label for="deliveryMode">Pass Delivery Mode *</label>
-        <select id="deliveryMode" name="deliveryMode" required>
-          <option value="">--Select Delivery Mode--</option>
+        <select id="deliveryMode" name="deliveryMode" required> 
+          <option  disabled selected >---Select---</option>
           <option value="Offline">Offline</option>
+          <option value="Offline">online</option>
         </select>
 
         <br /><br />
 
         <label for="collectionCenter">Center to Collect Pass *</label>
         <select id="collectionCenter" name="collectionCenter" required>
-          <option value="">--Select--</option>
+          <option  disabled selected >---Select---</option>
           <option value="Hyderabad">Hyderabad</option>
+          <option value="Hyderabad">Secendrabad</option>
         </select>
 
       </fieldset>
